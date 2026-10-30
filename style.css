@@ -1,0 +1,84 @@
+
+/* Basic page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+#container {
+    width: 326px;
+    height: 406px;
+    background-color: #ffff4d;
+    padding-top: 24px;
+}
+
+/* Eyes section */
+.eyes {
+    display: flex;
+    gap: 10px;
+    margin-left: 24px;
+}
+
+/* White eye boxes */
+.eye {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    padding: 24px;
+}
+
+/* Black pupils */
+.pupil {
+    width: 50px;
+    height: 48px;
+    background-color: black;
+}
+
+/* Mouth */
+.mouth {
+    width: 264px;
+    height: 192px;
+    background-color: black;
+    margin-top: 24px;
+    margin-left: 24px;
+    position: relative;
+}
+
+/* Teeth section */
+.teeth {
+    display: flex;
+    gap: 14px;
+    position: absolute;
+    top: 23px;
+    left: 12px;
+}
+
+/* Individual teeth */
+.tooth {
+    width: 20px;
+    height: 24px;
+    background-color: white;
+}
+
+/* Red tongue */
+.tongue {
+    width: 120px;
+    height: 84px;
+    background-color: #f12d20;
+    position: absolute;
+    top: 105px;
+    left: 72px;
+}
+
+/* Line in the tongue */
+.tongue-line {
+    width: 8px;
+    height: 48px;
+    background-color: black;
+    margin-left: 56px;
+}
